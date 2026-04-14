@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: rgb(7, 40, 132);
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 4px solid rgb(28, 0, 142);
+  padding-bottom: 20px;
+}
+
+.linha-icones {
+  display: flex;
+  gap: 120px;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+.linha-icones img {
+  width: 170px;
+  height: 170px;
+}
+
+.coordenador {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.descricao {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.linha-pdf {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.link-pdf {
+  text-decoration: none;
+}
+
+.link-pdf img {
+  width: 100px;
+  height: 100px;
+}
